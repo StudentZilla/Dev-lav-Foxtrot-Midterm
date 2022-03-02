@@ -1,0 +1,75 @@
+
+body{
+  background-image: url('https://cdn.dribbble.com/users/14997/screenshots/587335/dribbble.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+}
+
+/* Header/Logo Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: rgb(120, 36, 131);
+  color: rgb(15, 124, 175);
+  font-size: 30px;
+}
+
+/* Page Content */
+.content {padding:20px;}
+
+/*This is for name card */
+.card {
+
+  transition: 0.3s;
+  width: 50%;
+}
+
+.responsive{
+  width: 100%;
+  height: auto;
+}
+
+
+.container {
+  padding: 2px 16px;
+}
+
+.card {
+  margin: 0 auto;
+  float: none; 
+  margin-bottom: 10px; 
+}
+
+.container{
+  position: relative;
+  text-align: center;
+  color: rgb(black);
+  
+}
+
+.top-right{
+  position: absolute;
+  top: 8px;
+  right: 400px;
+}
+
+.flex{
+  display: flex;
+  display: center;
+}
+
+.footer{
+  padding: 40px;
+  text-align: center;
+  background: rgb(179, 43, 145);
+  color: rgb(15, 124, 175);
+  font-size: 20px;
+}
+
